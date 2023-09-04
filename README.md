@@ -27,15 +27,24 @@ repo and then creating an PR.
 
 ## Setup
 
-To set this up, simply run `npm install` in the repository. That will install
-all the node_modules for you.
+To set this up, simply run `npm install` in the root of this repository, aswell
+as the `ui` folder. That will install all the node_modules for you.
 
 ### Production
 
-Building for production can be done using `npm run build`
+Building for production can be done using `npm run build`.
+
+Using it in the root folder would build all the `client`/`server`/`shared`
+scripts,
+
+Whilst using it in the `ui` folder would build the actual ui files.
 
 ### Development
 
 Setting up a "dev server" / listener can be done by using `npm run dev`.
 
-This means that the files will be automatically rebuilt upon being changed.
+Using this command in the root folder will run a dev-server for the actual
+`client`/`server`/`shared` files.
+
+Using this in the `ui` folder will create a local dev-server for the ui, just
+make sure to change the `ui_page`
