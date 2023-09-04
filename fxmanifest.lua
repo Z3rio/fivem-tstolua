@@ -1,19 +1,18 @@
 fx_version "cerulean"
 game "gta5"
+lua54 "yes"
 
 author "Zerio"
 description "???"
 
 shared_scripts {
-  "build/shared/main.lua"
+  "build/shared.lua"
 }
 
 client_scripts {
-  "build/client/functions.lua",
-  "build/server/main.lua"
+  "build/client.lua"
 }
 
 server_scripts {
-  "build/server/functions.lua",
-  "build/server/main.lua"
+  "build/server.lua",
 }

@@ -1,1 +1,3 @@
-console.log("hello from the client");
+import { hello } from "./functions";
+
+hello();
