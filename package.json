@@ -1,0 +1,28 @@
+{
+  "name": "fivem-tstolua",
+  "version": "1.0.0",
+  "description": "This is a template resource for using typescript to lua within FiveM",
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z3rio/fivem-tstolua.git"
+  },
+  "keywords": [
+    "fivem",
+    "ts",
+    "lua"
+  ],
+  "author": "Zerio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Z3rio/fivem-tstolua/issues"
+  },
+  "homepage": "https://github.com/Z3rio/fivem-tstolua#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "typescript-to-lua": "^1.19.0"
+  }
+}
