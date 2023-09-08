@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a template resource for using typescript to lua within FiveM",
   "scripts": {
-    "build": "node build.js",
+    "build": "cd src/client && npx tstl && cd ../server && npx tstl",
     "dev": "nodemon"
   },
   "repository": {
@@ -26,6 +26,9 @@
     "typescript-to-lua": "^1.19.0"
   },
   "dependencies": {
+    "@citizenfx/client": "^2.0.6681-1",
+    "@citizenfx/server": "^2.0.6683-1",
+    "@types/node": "^20.5.9",
     "nodemon": "^3.0.1"
   }
 }

@@ -42,8 +42,7 @@ as the `ui` folder. That will install all the node_modules for you.
 
 Building for production can be done using `npm run build`.
 
-Using it in the root folder would build all the `client`/`server`/`shared`
-scripts,
+Using it in the root folder would build all the `client`/`server` scripts,
 
 Whilst using it in the `ui` folder would build the actual ui files.
 
@@ -52,8 +51,7 @@ Whilst using it in the `ui` folder would build the actual ui files.
 Setting up a "dev server" / listener can be done by using `npm run dev`.
 
 Using this command in the root folder will run a dev server for the actual
-`client`/`server`/`shared` files.
+`client`/`server` files.
 
 Using this in the `ui` folder will create a local dev-server for the UI, just
 make sure to change the `ui_page`
-

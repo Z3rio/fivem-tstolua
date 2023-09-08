@@ -4,17 +4,14 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "commonjs",
-    "outDir": "../../build",
+    "outDir": "../../../build",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strict": true,
     "skipLibCheck": true,
-    "types": [
-      "@citizenfx/client",
-      "@types/node"
-    ],
+    "types": ["@citizenfx/client", "@types/node"]
   },
 
   "tstl": {
