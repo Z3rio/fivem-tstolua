@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "$schema": "https://raw.githubusercontent.com/Z3rio/TypeScriptToLua/master/tsconfig-schema.json",
 
   "compilerOptions": {
     "target": "ES6",
@@ -17,6 +17,7 @@
   "tstl": {
     "luaTarget": "5.4",
     "noHeader": true,
+    "disableSelfGlobal": true,
     "noImplicitGlobalVariables": true,
     "luaBundle": "client.lua",
     "luaBundleEntry": "./main.ts"

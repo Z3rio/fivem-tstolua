@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Z3rio/fivem-tstolua#readme",
   "devDependencies": {
     "typescript": "^5.2.2",
-    "typescript-to-lua": "^1.19.0"
+    "@zerio2/typescript-to-lua": "^1.19.4"
   },
   "dependencies": {
     "@citizenfx/client": "^2.0.6681-1",
