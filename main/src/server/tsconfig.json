@@ -17,9 +17,16 @@
   "tstl": {
     "luaTarget": "5.4",
     "noHeader": true,
-    "disableSelfGlobal": true,
     "noImplicitGlobalVariables": true,
     "luaBundle": "server.lua",
-    "luaBundleEntry": "./main.ts"
+    "luaBundleEntry": "./main.ts",
+    "luaPlugins": [
+      {
+        "name": "../plugins/forceNoSelf.ts"
+      },
+      {
+        "name": "../plugins/fivem.ts"
+      }
+    ]
   }
 }
